@@ -31,12 +31,12 @@ The following steps are taken to train YOLOv8 and ResNet-50-FPN models
 
 * Model Testing: The testing set is used to evaluate the models' final performance and assess their ability to generalize to previously unseen data.
 
-Visual Evaluation: The models are run on pre recorded video of street traffic as shown in the figures below.
+* Visual Evaluation: The models are run on pre recorded video of street traffic as shown in the figures below.
 
-![alt_text][image1]
+[![Resnet50 visualization](http://img.youtube.com/vi/EOq661_DQ4I/0.jpg)](https://youtu.be/EOq661_DQ4I "Resnet50 visualization")
 <center>Figure 1: Resnet50 visualization.</center>
 
-![alt_text][image2]
+[![YOLO visualization](http://img.youtube.com/vi/SnlIH8-2X1Q/0.jpg)](https://youtu.be/SnlIH8-2X1Q "YOLO visualization")
 <center>Figure 4: YOLO visualization</center>
 
 The following are the steps taken to train the SVM model.
@@ -54,8 +54,7 @@ The following are the steps taken to train the SVM model.
 
 * Visual Evaluation: The models are run on pre recorded video of street traffic as shown in the figures below.
 
-Figure 8: SVM visualization.
-Evaluation 
+## Evaluation 
 SVM:
 In the scope of this study, the SVM model was found to be insufficient in detecting pedestrians and stop signs. However, it performed well in detecting vehicles due to the availability of a large number of diverse images from the KITTI dataset [6] with various angles and better compositions. Additionally, a vast collection of non-domain images of empty roads enabled the model to differentiate between the background and vehicles effectively.
 
@@ -78,3 +77,5 @@ In terms of accuracy:
 In conclusion, this scientific paper presented the development and comparison of object detection models for detecting cars, pedestrians, and street signs in the automotive domain. Three supervised learning approaches were implemented: YOLO, faster R-CNN, and SVM models. The models were trained and evaluated using the Coco [1] and KITTI [6] datasets, with the gathered information tagged with bounding boxes or masks to locate the objects in the image. 
 
 Our experimental results showed that YOLO outperformed the other models with a 0.90 mean average precision (MAP) and a speed of 40 frames per second (fps). Faster R-CNN and SVM models showed lower performance in terms of both accuracy and speed. Therefore, we recommend the use of YOLO for object detection tasks in the automotive domain
+
+
