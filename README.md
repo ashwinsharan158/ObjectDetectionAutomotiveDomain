@@ -34,10 +34,12 @@ The following steps are taken to train YOLOv8 and ResNet-50-FPN models
 * Visual Evaluation: The models are run on pre recorded video of street traffic as shown in the figures below.
 
 [![Resnet50 visualization](http://img.youtube.com/vi/EOq661_DQ4I/0.jpg)](https://youtu.be/EOq661_DQ4I "Resnet50 visualization")
-<center>Figure 1: Resnet50 visualization.</center>
+<center><b>Click to play Resnet50 visualization.</b></center>
+
 
 [![YOLO visualization](http://img.youtube.com/vi/SnlIH8-2X1Q/0.jpg)](https://youtu.be/SnlIH8-2X1Q "YOLO visualization")
-<center>Figure 4: YOLO visualization</center>
+
+<center><b>Click to play YOLO visualization</b></center>
 
 The following are the steps taken to train the SVM model.
 * Data collection: The COCO 2017 Train dataset's person and stop sign classes[1]  are cropped according to their bounding box annotation size and resized to 64 x 64. Also detailed car images were taken from the KITTI vision benchmark suite [6]. The dataset contains 8792 images of cars, 11237 images of people, 1983 images of stop-sign and 16171 non-domain images.
